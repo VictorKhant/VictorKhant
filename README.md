@@ -45,7 +45,7 @@ LLM-scoring pipeline that holds each run under ~$1 and reports _"amount not stat
 than hallucinating a number. Encrypted on-disk key storage, a pytest suite with a
 ranking-calibration test, and CI/CD via GitHub Actions.
 
-<a href="[https://www.youtube.com/watch?v=N3vFsQg-IL4](https://fundworthy.duckdns.org/)"><img src="https://img.shields.io/badge/Live_app-222?style=flat&logo=githubpages&logoColor=white" alt="Live App"></a>
+<a href="https://fundworthy.duckdns.org/"><img src="https://img.shields.io/badge/Live_app-222?style=flat&logo=githubpages&logoColor=white" alt="Live App"></a>
 
 
 
