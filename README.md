@@ -38,7 +38,7 @@ and the dashboards people actually use.
 
 ## 🚀 Featured Projects
 
-### [Fundworthy — AI Grant-Finder Agent](https://github.com/VictorKhant/Rise-Fund-Finder) · `Python` · `FastAPI` · `React` · `Claude API`
+### [Fundworthy — AI Grant-Finder Agent](https://github.com/VictorKhant/Fundworthy) · `Python` · `FastAPI` · `React` · `Claude API`
 An autonomous agent that cuts a nonprofit's weekly grant search from 10+ hours to near-zero.
 It crawls funders, filters, and returns a short, ranked, sourced list — with a tiered
 LLM-scoring pipeline that holds each run under ~$1 and reports _"amount not stated"_ rather
