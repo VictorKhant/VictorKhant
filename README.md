@@ -37,6 +37,20 @@ and the dashboards people actually use.
 ---
 
 ## 🚀 Featured Projects
+### [BellyUp — Surplus Food Dispatch](https://github.com/VictorKhant/Build-For-Good/tree/Vic-final) · `Python` · `FastAPI` · `SciPy` · `Leaflet` · `OSRM`
+A three-sided dispatch board that moves end-of-night restaurant surplus to the downtown San
+Diego blocks where need is actually counted — scored on meals served net of what the run
+costs the collector, over **382 blocks** from the Downtown San Diego Partnership street count.
+Routes on the real street network via a precomputed **69,169-pair directed matrix**, so
+one-ways and freeway ramps are respected and a route is never a straight line through a
+building. Assigns the whole evening as one optimal bipartite matching instead of report-by-
+report, recovering **$345 of net value** the greedy pass gave away at the same spread. Every
+rejected pairing returns a reason rather than disappearing, and outreach locations are
+enforced agency-only at the API layer — block-aggregated so the output cannot be
+operationalised for enforcement.
+
+<a href="https://bellyup.vercel.app/"><img src="https://img.shields.io/badge/Live_app-222?style=flat&logo=githubpages&logoColor=white" alt="Live App"></a>
+<a href="https://www.youtube.com/watch?v=DPjVAOSpjb8"><img src="https://img.shields.io/badge/Watch_the_demo-FF0000?style=flat&logo=youtube&logoColor=white" alt="Watch the demo"></a>
 
 ### [Fundworthy — AI Grant-Finder Agent](https://github.com/VictorKhant/Fundworthy) · `Python` · `FastAPI` · `React` · `Claude API`
 An autonomous agent that cuts a nonprofit's weekly grant search from 10+ hours to near-zero.
@@ -46,8 +60,6 @@ than hallucinating a number. Encrypted on-disk key storage, a pytest suite with 
 ranking-calibration test, and CI/CD via GitHub Actions.
 
 <a href="https://fundworthy.duckdns.org/"><img src="https://img.shields.io/badge/Live_app-222?style=flat&logo=githubpages&logoColor=white" alt="Live App"></a>
-
-
 
 ### [Parallel 2D Convolution Optimizer](https://github.com/VictorKhant/Parallel-2D-Convolution-Optimizer) · `C` · `AVX2` · `OpenMP` · `Open MPI`
 A high-performance image/video convolution engine, optimized through three stacked layers
